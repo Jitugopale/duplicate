@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top:70px;
+        left:0;
+        background: #333;
+        width: auto;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    .nav-right{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-left{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.row .col-2 img{
+    opacity: 0.1;
+}
+
+.row .col-2 h1{
+    color: white;
+}
+
+.row .col-2 p{
+    color: white;
+}
+
+#inside{
+    color: #FFC300;
+    display: inline;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+
+.top-container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}  
+
+.header{
+    max-width: 100%;
+    height: auto;
+    background: #2b3036;
+}
+
+#logo{
+    width: 300px;
+    margin-left: 200px;
+}    
+
+.navBar{
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+nav .nav-right{
+    margin-left: 300px;
+}
+
+#yellow{
+    padding: 10px 20px 10px 20px;
+    background: #FFC300;
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#free{
+    padding: 20px 30px 20px 30px;
+    background: #FFC300;
+    color: black;
+    border-radius: 30px;  
+    font-size: 20px; 
+    font-weight: bold;
+    line-height: 70px;
+}    
+
+#yt{
+    margin-top: 20px;
+    color: #FFC300;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.section_1{
+    background: #181c1f;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+h6{
+    color: white;
+}
+.section_2 p{
+    color: white;
+}
+
+#hanging-icons h2{
+    color: white;
+}
+
+#icon-grid h2{
+    color: white;
+}
+
+.section_3 p{
+    color: white;
+}
+
+.section_2{
+    background: #2b3036;
+}
+
+.section_3{
+    background: #181c1f;
+}
+
+.section_4{
+    background: #2b3036;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    background: #181c1f;
+    color: #fff;
+    font-family: euclid-square,sans-serif;
+    font-size: 16px;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+:root {
+    --kx-blue: #0061FF;
+    --kx-yellow: #FFC300;
+    --kx-grey-1: #9FA3A6;
+    --kx-grey-2: #DBDCDE;
+    --kx-grey-3: #CCCCCC;
+    --kx-grey-dark: #696969;
+    --kx-off-white: #F5F5F5;
+    --kx-black: #0b0d0e;
+    --kx-black-light: #181c1f;
+    --kx-blue: #0061FF;
+    --kx-blue-grey: #2b3036;
+    --kx-yellow: #FFC300;
+    --kx-orange: #f98500;
+    --kx-red: #F23A66;
+    --kx-green: #009BAB;
+    --kx-purple: #7647CC;
+}
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #ffc300 #181c1f;
+    scrollbar-width: thin;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffc300;
+    border-radius: 5px;
+}
+
+::selection {
+    color: #0a0900;
+    background-color: #ffc300;
+}
+
+.section_5{
+    text-align: center;
+    background: #181c1f;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+@media(max-width:1026px){
+    #updates{
+        width: 400px;
+    }
+}
+
+@media(max-width:814px){
+    #updates{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media(max-width:750px){
+    #updates{
+        width: 250px;
+        height: 220px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:605px){
+    #updates{
+        width: 300px;
+        height: 220px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+}
+
+@media(max-width:514px){
+    #updates{
+        width: 250px;
+        height: 180px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+}
+hr{
+    color: white;
+    width: 1200px;
+    margin-left: 150px;
+}
+
+@media(max-width:1374px){
+    hr{
+        width: 1000px;
+    }
+}
+
+@media(max-width:1233px){
+    hr{
+        width: 900px;
+    }
+}
+
+@media(max-width:1162px){
+    hr{
+        width: 800px;
+    }
+}
+
+@media(max-width:992px){
+    hr{
+        width: 700px;
+    }
+}
+
+@media(max-width:903px){
+    hr{
+        width: 600px;
+    }
+}
+
+@media(max-width:800px){
+    hr{
+        width: 500px;
+    }
+}
+
+@media(max-width:700px){
+    hr{
+        width: 400px;
+    }
+}
+
+@media(max-width:582px){
+    hr{
+        width: 300px;
+    }
+}
+
+@media(max-width:553px){
+    hr{
+        width: 200px;
+    }
+}
+
+@media(max-width:480px){
+    hr{
+        width: 100px;
+    }
+}
+
+@media(max-width:380px){
+    hr{
+        display: none;
+    }
+}
+
+.rows{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.col-3{
+    flex-basis: 33.33%;
+    min-width: 300px;
+}
+
+@media(max-width:906px){
+    #none{
+        display: none;
+    }
+
+}
+
+@media(max-width:961px){
+    #neuron-w{
+       width: 400px;
+    }
+
+}
+
+@media(max-width:862px){
+    #neuron-w{
+        width: 350px;
+    }
+
+}
+
+@media(max-width:712px){
+    #neuron-w{
+        width: 300px;
+    }
+
+}
+
+@media(max-width:640px){
+    #neuron-w{
+        width: 250px;
+    }
+
+}
+
+@media(max-width:605px){
+    #neuron-w{
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
